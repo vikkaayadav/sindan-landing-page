@@ -115,6 +115,12 @@
 
 /* MEDIA QUERY STARTS */
 
+@media only screen and (min-width: 1650px){
+    .main-section{
+        background-size: cover;
+    } 
+}
+
 @media only screen and (max-width: 1120px){
     .main-section{
         padding: 100px 50px;
