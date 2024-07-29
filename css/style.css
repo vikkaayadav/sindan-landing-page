@@ -12,6 +12,10 @@
     min-height: 100vh;
     font-family: "Lexend", sans-serif;
 }
+.main-section .First-hero-section{
+    width: 100%;
+    height: 90vh;
+}
 
 .headBox{
     width: 100%;
@@ -19,11 +23,12 @@
     padding-bottom: 8em;;
 }
 
-.midBox-main{
+.headBox-main{
     width: 100%;
+    padding-top: 10rem;
 }
 
-.midBox-main .subHeading-text{
+.headBox-main .subHeading-text{
     font-size: 36px;
     font-family: "Lexend", sans-serif;
     color: #fff;
@@ -31,7 +36,7 @@
     letter-spacing: 1px;
     text-align: center;
 }
-.midBox-main h1{
+.headBox-main h1{
     font-size: 53px;
     font-family: "Lexend", sans-serif;
     color: #fff;
@@ -44,10 +49,10 @@
 .midVisit-box{
     width: 100%;
     text-align: center;
-    padding-top: 7em;
     gap: 30px;
     display: inline-flex;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 .midVisit-box span{
    font-size: 18px;
@@ -55,19 +60,19 @@
    font-weight: 400;
 }
 
-.midBox-main h2{
+.midVisit-box h2{
     font-size: 40px;
     color: #fff;
     font-weight: 500;
     text-align: center;
 }
-.midBox-main p{
+.midVisit-box p{
     font-size: 20px;
     color: #fff;
     font-weight: 400;
     text-align: center;
 }
-.midBox-main .myButton{
+.midVisit-box .myButton{
     display: inline-block;
     font-size: 20px;
     color: #000;
@@ -125,14 +130,14 @@
     .main-section{
         padding: 100px 50px;
     }
-    .midBox-main .subHeading-text {
+    .headBox-main .subHeading-text {
         font-size: 33px;
     }
 
-    .midBox-main h1{
+    .headBox-main h1{
         font-size: 48px;
     }
-    .midBox-main h2{
+    .midVisit-box h2{
         font-size: 38px;
     } 
 }
@@ -150,15 +155,15 @@
     .main-section {
         padding: 65px 30px;
     }
-    .midBox-main .subHeading-text {
+    .headBox-main .subHeading-text {
         font-size: 30px;
     }
 
-    .midBox-main h1{
+    .headBox-main h1{
         font-size: 40px;
         letter-spacing: 4px;
     }
-    .midBox-main h2{
+    .midVisit-box h2{
         font-size: 38px;
     } 
 }
@@ -173,19 +178,19 @@
     .main-section {
         padding: 50px 20px;
     }
-    .midBox-main .subHeading-text {
+    .headBox-main .subHeading-text {
         font-size: 22px;
     }
-    .midVisit-box{
+    /* .midVisit-box{
         padding-top: 5em;
-    }
-    .midBox-main h1{
+    } */
+    .headBox-main h1{
         font-size: 32px;
     }
-    .midBox-main h2{
+    .midVisit-box h2{
         font-size: 25px;
     } 
-    .midVisit-box span, .midBox-main p, .midBox-main .myButton{
+    .midVisit-box span, .midVisit-box p, .midVisit-box .myButton{
         font-size: 16px;
     }
     .contactBox-main{
