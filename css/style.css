@@ -252,5 +252,8 @@
     .midVisit-box span, .midVisit-box p, .midVisit-box .myButton, .contactBox-main p{
         font-size: 14px;
     }
+    .midVisit-box .myButton{
+        width: 100%;
+    }
     
 }
