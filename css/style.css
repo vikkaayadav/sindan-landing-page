@@ -14,7 +14,7 @@
 }
 .main-section .First-hero-section{
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .headBox{
@@ -40,6 +40,7 @@
     font-size: 53px;
     font-family: "Lexend", sans-serif;
     color: #fff;
+    line-height: 1.4em;
     font-weight: 500;
     letter-spacing: 8px;
     padding-top: 20px;
@@ -55,7 +56,7 @@
     padding-bottom: 5rem;
 }
 .midVisit-box span{
-   font-size: 18px;
+   font-size: 20px;
    color: #fff;
    font-weight: 400;
 }
@@ -142,6 +143,19 @@
     } 
 }
 
+
+@media only screen and (max-width: 940px){
+    .headBox-main h1{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+@media only screen and (max-width: 740px){
+    .headBox-main h1{
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width: 720px){
     .main-section{
         background-size: cover;
@@ -150,7 +164,7 @@
         padding-bottom: 5.5em;
     }
     .headBox img{
-        width: 160px;
+        width: 180px;
     }
     .main-section {
         padding: 65px 30px;
@@ -167,14 +181,23 @@
         font-size: 38px;
     } 
 }
+
+@media only screen and (max-width: 690px){
+    .headBox-main h1{
+        font-size: 35px;
+    }
+    .midVisit-box h2 {
+        font-size: 33px;
+        line-height: 1.4em;
+    }
+}
+
 @media only screen and (max-width: 620px){
    
     .headBox{
         padding-bottom: 5.5em;
     }
-    .headBox img{
-        width: 160px;
-    }
+   
     .main-section {
         padding: 50px 20px;
     }
@@ -186,9 +209,11 @@
     } */
     .headBox-main h1{
         font-size: 32px;
+        line-height: 1.5em;
     }
     .midVisit-box h2{
-        font-size: 25px;
+        font-size: 23px;
+        line-height: 1.4em;
     } 
     .midVisit-box span, .midVisit-box p, .midVisit-box .myButton{
         font-size: 16px;
