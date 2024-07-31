@@ -150,9 +150,12 @@
         letter-spacing: 5px;
     }
 }
-@media only screen and (max-width: 740px){
+@media only screen and (max-width: 768px){
     .headBox-main h1{
-        font-size: 40px;
+        font-size: 36px;
+    }
+    .headBox-main .subHeading-text{
+        font-size: 30px;
     }
 }
 
