@@ -149,6 +149,15 @@
         font-size: 40px;
         letter-spacing: 5px;
     }
+    .headBox img{
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width: 820px){
+    .main-section{
+        background-image: url('../images/mobile-bg-image.svg');
+    }
 }
 @media only screen and (max-width: 768px){
     .headBox-main h1{
