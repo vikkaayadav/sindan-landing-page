@@ -177,7 +177,8 @@
     }
     .main-section .First-hero-section{
         width: 100%;
-        min-height: 28em;
+        /* min-height: 28em; */
+        min-height: auto;
     }
     .headBox-main{
         padding-top: 5rem;
@@ -223,12 +224,12 @@
 @media only screen and (max-width: 620px){
    
     .headBox{
-        padding-bottom: 5.5em;
+        padding-bottom: 0;
     }
    
     .main-section {
         padding: 70px 20px;
-        min-height: auto;
+        min-height: 100vh;
     }
     .headBox-main .subHeading-text {
         font-size: 22px;
