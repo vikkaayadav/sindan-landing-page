@@ -4,7 +4,7 @@
 }
 
 .main-section{
-    background-image: url('../images/sindan-bgg.webp');
+    background-image: url('../images/newBanner-image.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -14,7 +14,7 @@
 }
 .main-section .First-hero-section{
     width: 100%;
-    min-height: 65em;
+    min-height: 43em;
 }
 
 .headBox{
@@ -175,6 +175,13 @@
     .headBox-main .subHeading-text{
         font-size: 30px;
     }
+    .main-section .First-hero-section{
+        width: 100%;
+        min-height: 30em;
+    }
+    .headBox-main{
+        padding-top: 7rem;
+    }
 }
 
 @media only screen and (max-width: 720px){
@@ -242,7 +249,7 @@
     .contactBox-main{
         flex-direction: column;
         text-align: center;    
-        padding-top: 5em;
+        padding-top: 0em;
     }
     .contactBox-main .socialLinks{
         justify-content: center;
