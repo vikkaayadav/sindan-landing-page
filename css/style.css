@@ -179,9 +179,12 @@
         width: 100%;
         /* min-height: 28em; */
         min-height: auto;
+        padding-bottom: 70px;
+        padding-top: 70px;
+
     }
     .headBox-main{
-        padding-top: 5rem;
+        padding-top: 7rem;
     }
 }
 
@@ -228,7 +231,7 @@
     }
    
     .main-section {
-        padding: 70px 20px;
+        padding: 0 20px;
         min-height: 100vh;
     }
     .headBox-main .subHeading-text {
@@ -263,6 +266,9 @@
     }
     .contactBox-main .contactText{
         min-width: auto;
+    }
+    .main-section .First-hero-section{
+        padding-top: 70px;
     }
 }
 
